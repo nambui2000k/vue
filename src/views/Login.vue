@@ -12,7 +12,7 @@
                 </v-col>
             </v-row>
             <v-btn :loading="loading" class="ma-2" color="success" type="submit">
-                Login
+                Đăng nhập
             </v-btn>
         </v-container>
     </v-form>
