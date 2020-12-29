@@ -11,7 +11,7 @@ export default () => {
     }
     const instance = axios.create(
         {
-            baseURL: process.env.VUE_APP_API,
+            baseURL: process.env.VUE_APP_API || "http://localhost:2000/",
             headers: headers
         }
     )

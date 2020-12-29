@@ -43,8 +43,6 @@
                     () => {
                         console.log("Xong")
                         this.loading = false;
-                        this.$router.push({name: "Home"})
-
                     }
                 )
             }

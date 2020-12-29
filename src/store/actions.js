@@ -9,7 +9,6 @@ export const login = async ({commit}, credentials) => {
              resolve(response)
          }).catch((error)=>{
              reject(error.response)
-             commit("setToken", "token")
          })
     }))
 }
